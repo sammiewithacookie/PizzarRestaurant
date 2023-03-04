@@ -1,0 +1,350 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Ruda';
+}
+.middle{
+    display: flex;
+    gap: 10px;
+}
+.right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.content{
+    width: 100vr;
+    background-image: url("pizza1 1.png");
+    color: white;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vw;
+    letter-spacing: 0.09em;
+}
+
+.contentcard{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    word-wrap: break-word;
+   
+}
+
+
+.underline{
+    width: 50% ;
+    height: 2vr;
+   background-color: #F24C4C
+    ;
+}
+.contentcard p{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+.about{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    width: 100vr;
+    height: 400px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    
+
+}
+
+.image{
+
+    display: flex;
+    justify-content: end;
+}
+.aboutus > p{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+.body p{
+    color: aliceblue;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.body > .writing{
+    width: 50%;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+.about img{
+    width: 70%;
+    height: 70%;
+}
+
+.aboutus > .underline1{
+    width: 20% ;
+    height: 5px;
+    background-color: #F24C4C;
+}
+
+.menu{
+    background-color: black;
+    width: 100vr;
+    height: auto;
+    color: white;
+    margin: 0;
+    padding: 20px;
+   
+}
+.menuhead{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.underline2{
+    width: 100px;
+    height: 5px;
+    background-color: #F24C4C;
+}
+.menuhead > p{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+.menucard{
+    width: 45%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+.menucard > img{
+    width: 200px;
+    height: 130px;
+}
+
+.menuarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    gap: 20px;
+}
+
+.menuinfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+.main{
+    color: #F2C94C;
+
+}
+.find{
+    background-color: black;
+    color: white;
+}
+/* .findus{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 2px solid red;
+    background-color: black;
+}
+.findus > p{
+    font-size: 30px;
+}
+.underline3{
+    width: 150px;
+    height: 5px;
+    background-color: #F24C4C;
+} */
+.find-us{
+    background-color: black;
+    color: white;
+}
+.find-us-heading {
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.find-us .border-img {
+    width: 30vw;
+    height: 2vh;
+}
+
+
+.find-us .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.find-us .description p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+    padding-left: 0.7vw;
+}
+
+.find-us .navigation-img {
+    width: 40vw;
+    height: 25vw;
+    padding-left: 3vw;
+}
+
+.find-us .left-section-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.find-us .left-section-details .location-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .left-section-details .phone-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.find-us .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+.footer {
+    /* margin-top: 15vw; */
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.footer .mail-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer  .phone-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer .grp-img {
+    width: 10vw;
+}
+
+.footer .footer-img {
+    padding-left: 6vw;
+}
+
+.footer .contact-details {
+    padding-left: 45vw;
+}
+
+.footer .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.footer .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
